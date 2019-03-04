@@ -22,7 +22,7 @@ header {
 
 .header1 {
     float: left;
-    padding: 5px 10px 10px 10px;    
+    padding: 5px 15px 15px 15px;    
     background-color: ;
     height: 45px;
     text-decoration: ;
@@ -31,9 +31,8 @@ header {
 
 .header2 {
     float: right;
-    padding: 5px 10px 10px 10px;    
+    padding: 5px 15px 15px 15px;    
     height: 45px;
-    background-color: ;
 }
 
 .header2 a:hover{
@@ -110,7 +109,7 @@ td a:active{
 }
     
 .title {
-    max-width: 220px; 
+    max-width: 200px; 
     padding-right: 25px;
     float: left;
 }

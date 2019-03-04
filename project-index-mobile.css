@@ -68,7 +68,7 @@ h1 a {
 
 
 table {
-    font-size: 16px;
+    font-size: 20px;
     max-width: 100%;
     z-index: 10; 
     border-collapse: collapse;
@@ -102,19 +102,19 @@ td a:active{
 }
 
 .number{
-    display: ;
-    width: 15px;
-    padding-right: 25px;
+    width: 20px;
+    padding-right: 32px;
     float: left;
 }
     
 .title {
-    max-width: 200px; 
+    max-width: 80%; 
     padding-right: 25px;
     float: left;
 }
 
 .type {
+    display: none;
     width: 80px;
     padding-right: 25px;
     float: left

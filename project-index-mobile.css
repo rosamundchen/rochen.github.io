@@ -1,0 +1,157 @@
+@media screen and (max-width: 850px) {
+    
+    
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    height: 100%;
+}
+
+/********************** HEADER **********************/
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:;
+    height: 45px;
+    z-index: 10;
+}
+
+.header1 {
+    float: left;
+    padding: 5px 10px 10px 10px;    
+    background-color: ;
+    height: 45px;
+    text-decoration: ;
+}
+
+
+.header2 {
+    float: right;
+    padding: 5px 10px 10px 10px;    
+    height: 45px;
+    background-color: ;
+}
+
+.header2 a:hover{
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-family: "Monument Grotesk Reg", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #111;
+}
+
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/********************** CONTAINER 2 **********************/
+
+.box1 {
+    position: relative;
+    background-color:;
+    float: left;    
+    margin-top: 100px; 
+    width: 100%;
+    padding: 15px;
+}
+
+
+table {
+    font-size: 16px;
+    max-width: 100%;
+    z-index: 10; 
+    border-collapse: collapse;
+}
+
+th { 
+    padding: 8px 0px 8px 0px;
+    font-family: "Monument Grotesk Bold", sans-serif;
+    text-align:left;
+    pointer-events: none;
+    color: #111;
+}
+
+td {
+    font-family: "Monument Grotesk Reg", sans-serif;
+    line-height: 1.5;
+    text-align:left;
+}
+
+td a {
+    color: black;
+    text-decoration: none;
+}
+
+td a:hover{
+    border-bottom: 2px solid #111; 
+}
+    
+td a:active{
+    color: blue;
+}
+
+.number{
+    display: ;
+    width: 15px;
+    padding-right: 25px;
+    float: left;
+}
+    
+.title {
+    max-width: 220px; 
+    padding-right: 25px;
+    float: left;
+}
+
+.type {
+    width: 80px;
+    padding-right: 25px;
+    float: left
+    }
+
+/********************** FOOTER **********************/
+
+.footer {
+    background-color: ;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "Monument Grotesk Reg", sans-serif;
+    font-size: 14px;
+    padding: 15px;
+}
+
+/********FONT FACE********/
+
+@font-face {
+  font-family: Favorit Reg Line;
+  src: url(Fonts/Favorit/Favorit-Regular_Lining.otf);
+}
+
+@font-face {
+  font-family: Monument Grotesk Reg;
+  src: url(Fonts/monument/MonumentGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: Monument Grotesk Med;
+  src: url(Fonts/monument/MonumentGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: Monument Grotesk Bold;
+  src: url(Fonts/monument/MonumentGrotesk-Bold.otf);
+}

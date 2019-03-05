@@ -38,7 +38,6 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color:;
     height: 65px;
     z-index: 10;
 }
@@ -95,7 +94,7 @@ table {
     float: left;
     font-size: 35px;
     width: 100%;
-    z-index: 10; 
+    z-index: 9; 
     border-collapse: collapse;
 }
 
@@ -125,17 +124,19 @@ td a:hover{
 }
 
 .number {
-    width: 85px;
+    float: left;
+    width: 55px;
+    padding-right: 30px;
 }
-.title {
-    padding: 0px 30px 0px 0px;
-    width: 450px; 
+.title {    
+    float: left;
+    padding-right: 30px;
+    width: 430px; 
 }
 
 .type {
-    padding: 0px 0px 0px 0px;  
-    width: 185px;
-    pointer-events: none;
+    float: left;
+    width: 90px;
 }
 
 /********************** FOOTER **********************/

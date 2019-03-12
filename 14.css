@@ -30,7 +30,10 @@ header {
     float: left;
     padding: 10px 15px 15px 15px;
     height: 55px;
-    color: darkgray;
+}
+
+.header1 a:hover{
+    text-decoration: underline;
 }
 
 
@@ -73,7 +76,7 @@ h1 a {
     padding: 15px;
 }
 
-.sb1, .sb2 {
+.ep1, .ep2, .ep3 {
     padding-bottom: 15px;
 }
 

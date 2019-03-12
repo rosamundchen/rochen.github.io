@@ -1,6 +1,9 @@
-@media screen and (max-width: 850px) {
-    
-    
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,7 +11,10 @@ html {
 html,body {
     height: 100%;
 }
-    
+
+* {cursor: url('cursor1.png'), default;
+}
+
 /********************** HEADER **********************/
 
 header {
@@ -16,7 +22,7 @@ header {
     width: 100%;
     top: 0;
     background-color:white;
-    height: 55px;
+    height: 70px;
     z-index: 10;
 }
 
@@ -24,6 +30,7 @@ header {
     float: left;
     padding: 10px 15px 15px 15px;
     height: 55px;
+    color: darkgray;
 }
 
 
@@ -39,7 +46,12 @@ header {
 
 
 h1 {
-    font-size: 25px;
+    font-family: "Monument Grotesk Reg", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    color: #111;
+    text-transform: uppercase;
 }
 
 
@@ -49,19 +61,19 @@ h1 a {
 }
 
 /********************** IMAGES **********************/
-    
 .box1 {
-    width: 100%;    
-    }
-    
+    float: left;
+    width: 75%;
+}
+
 .imagesgroup {
     float: left;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 100px;
     padding: 15px;
 }
 
-.ua1, .ua2, .ua3, .ua4, .ua5, .ua6 {
+.sb1, .sb2 {
     padding-bottom: 15px;
 }
 
@@ -70,23 +82,20 @@ h1 a {
 
 .textbox {
     float: left;
-    position: relative;
-    font-size: 15px;
-    height: 81px;
-    max-width: 50%;
-    padding: 0px 15px 15px 15px;
-    z-index: 9;
+    font-family: "Monument Grotesk Bold", sans-serif;
+    font-size: 15.5px;
+    padding: 10px 15px 20px 15px;
+    z-index: 10;
 }
 
 .year {
     float: left;
-    width: 100%;
-    padding-bottom: 10px;
+    width: 80px;
 }
 
 .title {
     float: left;
-    width: 100%;
+    width: 280px;
     line-height: 1.4;
 }
 .regtext {
@@ -104,16 +113,29 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    left: 0;   
-    height: 55px;
-    padding: 15px 15px 15px 15px;
-    background-color: white;
-    z-index: 0;
+    left: 0;       
+    height: 65px; 
+    padding: 15px;
 }
 
 .backbutton {
-    font-size: 25px;
+    float: right;
+    font-family: "Monument Grotesk Reg", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
 }
+
+.backbutton a {
+    color: black;
+    text-decoration: none;
+}
+
+.backbutton a:hover {
+    text-decoration: underline;
+}
+
+
+
 
 /********FONT FACE********/
 

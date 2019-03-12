@@ -72,7 +72,7 @@ h1 a:hover {
     padding: 15px;
 }
 
-.ep1, .ep2, .ep3 {
+.ie1, .ie2, .ie3, .ie4, .ie5, .ie6 {
     padding-bottom: 15px;
 }
 
@@ -81,9 +81,10 @@ h1 a:hover {
 
 .textbox {
     float: left;
+    height: 88px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
-    padding: 10px 15px 20px 15px;
+    padding: 5px 15px 20px 15px;
     z-index: 10;
 }
 
@@ -98,7 +99,7 @@ h1 a:hover {
     line-height: 1.4;
 }
 .regtext {
-    font-family: "Monument Grotesk Reg", sans-serif;
+    font-family: sans-serif;
 }
 
 .desc {

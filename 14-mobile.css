@@ -24,10 +24,11 @@ header {
 .header1 {
     float: left;
     padding: 10px 15px 15px 15px;
-    background-color: ;
     height: 55px;
-    text-decoration: ;
-    color: darkgray;
+}
+
+.header1 a:hover{
+    text-decoration: underline;
 }
 
 
@@ -35,7 +36,6 @@ header {
     float: right;
     padding: 10px 15px 15px 15px;    
     height: 55px;
-    background-color: ;
 }
 
 .header2 a:hover{
@@ -65,7 +65,7 @@ h1 a {
     padding: 15px;
 }
 
-.sb1, .sb2 {
+.ep1, .ep2, .ep3 {
     padding-bottom: 15px;
 }
 

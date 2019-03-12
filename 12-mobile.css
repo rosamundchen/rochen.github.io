@@ -49,30 +49,31 @@ h1 a {
 }
 
 /********************** IMAGES **********************/
+.box1 {
+    width: 100%;    
+    }
+    
 .imagesgroup {
-    background-color: ;
     float: left;
     width: 100%;
     margin-top: 70px;
     padding: 15px;
 }
 
-.ie1, .ie2, .ie3, .ie4, .ie5, .ie6 {
+.v1, .v2, .v3, .v4, .v5, .v6 {
     padding-bottom: 15px;
 }
 
 
 /********************** TEXT **********************/
-.box1 {
-    width: 100%;    
-    }
-    
+
 .textbox {
     float: left;
     position: relative;
     font-size: 15px;
     height: 122px;
-    max-width: 45%;
+    max-width: 53%;
+    word-wrap: break-word;
     padding: 0px 15px 15px 15px;
     z-index: 9;
 }
@@ -89,11 +90,6 @@ h1 a {
     line-height: 1.4;
 }
 .regtext {
-    font-family: "Monument Grotesk Reg", sans-serif;
-}
-
-.desc {
-    width: 600px;
     font-family: "Monument Grotesk Reg", sans-serif;
 }
 

@@ -51,8 +51,9 @@ h1 a {
 /********************** IMAGES **********************/
     
 .box1 {
-    width: 100%;    
-    }
+    float: left;
+    width: 100%;
+}
     
 .imagesgroup {
     float: left;
@@ -61,7 +62,7 @@ h1 a {
     padding: 15px;
 }
 
-.ab1, .ab2 {
+.vb1, .vb2, .vb3, .vb4, .vb5 {
     padding-bottom: 15px;
 }
 
@@ -72,8 +73,8 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 102px;
-    max-width: 55%;
+    height: 145px;
+    max-width: 50%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
 }
@@ -90,6 +91,11 @@ h1 a {
     line-height: 1.4;
 }
 .regtext {
+    font-family: sans-serif;
+}
+
+.desc {
+    width: 600px;
     font-family: "Monument Grotesk Reg", sans-serif;
 }
 

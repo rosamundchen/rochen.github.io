@@ -36,6 +36,7 @@ header {
     float: right;
     padding: 10px 15px 15px 15px;    
     height: 55px;
+    background-color: ;
 }
 
 h1 {
@@ -64,13 +65,14 @@ h1 a:hover {
 }
 
 .imagesgroup {
+    background-color: ;
     float: left;
     width: 100%;
     margin-top: 100px;
     padding: 15px;
 }
 
-.typo1, .typo2, .typo3, .typo4, .typo5 {
+.ua1, .ua2, .ua3, .ua4, .ua5, .ua6 {
     padding-bottom: 15px;
 }
 
@@ -112,7 +114,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;    
-    height: 70px;
+    height: 65px;
     padding: 15px;
 }
 

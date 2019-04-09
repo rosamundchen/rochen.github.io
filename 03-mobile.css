@@ -59,6 +59,7 @@ h1 a {
     width: 100%;
     margin-top: 70px;
     padding: 15px;
+    z-index: 9;
 }
 
 .psb1, .psb2, .psb3, .psb4 {

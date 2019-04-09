@@ -91,13 +91,10 @@ h1 a {
     z-index: 9;
 }
 .regtext {
-    font-family: "Monument Grotesk Reg", sans-serif;
+    font-family: "Monument Grotesk Reg", sans-serif;    
+    z-index: 9;
 }
-
-.desc {
-    width: 600px;
-    font-family: "Monument Grotesk Reg", sans-serif;
-}
+    
 
 /********************** FOOTER **********************/
 

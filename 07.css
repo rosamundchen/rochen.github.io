@@ -28,13 +28,13 @@ header {
 
 .header1 {
     float: left;
-    padding: 10px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
     height: 55px;
 }
 
 .header2 {
     float: right;
-    padding: 10px 15px 15px 15px;    
+    padding: 15px 15px 15px 15px;    
     height: 55px;
 }
 
@@ -79,7 +79,7 @@ h1 a:hover {
 
 .textbox {
     float: left;
-    height: 65px;
+    height: 62px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
     padding: 5px 15px 20px 15px;
@@ -88,22 +88,17 @@ h1 a:hover {
 
 .year {
     float: left;
-    width: 80px;
+    width: 105px;
 }
 
 .title {
     float: left;
-    width: 280px;
+    width: 550px;
     line-height: 1.4;
 }
 .regtext {    
     font-family: "Monument Grotesk Reg", sans-serif;
     font-family: sans-serif;
-}
-
-.desc {
-    width: 600px;
-    font-family: "Monument Grotesk Reg", sans-serif;
 }
 
 /********************** FOOTER **********************/

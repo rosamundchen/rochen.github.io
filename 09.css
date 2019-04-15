@@ -28,15 +28,14 @@ header {
 
 .header1 {
     float: left;
-    padding: 10px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
     height: 55px;
 }
 
 .header2 {
     float: right;
-    padding: 10px 15px 15px 15px;    
+    padding: 15px 15px 15px 15px;    
     height: 55px;
-    background-color: ;
 }
 
 h1 {
@@ -65,7 +64,6 @@ h1 a:hover {
 }
 
 .imagesgroup {
-    background-color: ;
     float: left;
     width: 100%;
     margin-top: 100px;
@@ -84,18 +82,19 @@ h1 a:hover {
     height: 65px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
+    height: 62px;
     padding: 5px 15px 20px 15px;
     z-index: 10;
 }
 
 .year {
     float: left;
-    width: 80px;
+    width: 105px;
 }
 
 .title {
     float: left;
-    width: 280px;
+    width: 550px;
     line-height: 1.4;
 }
 .regtext {

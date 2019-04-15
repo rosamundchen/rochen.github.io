@@ -28,13 +28,13 @@ header {
 
 .header1 {
     float: left;
-    padding: 10px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
     height: 55px;
 }
 
 .header2 {
     float: right;
-    padding: 10px 15px 15px 15px;    
+    padding: 15px 15px 15px 15px;    
     height: 55px;
     color: darkgray;
 }
@@ -89,7 +89,7 @@ h1 a:hover {
 
 .year {
     float: left;
-    width: 80px;
+    width: 105px;
 }
 
 .title {

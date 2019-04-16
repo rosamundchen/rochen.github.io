@@ -73,7 +73,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 123px;
+    height: 105px;
     max-width: 50%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
@@ -91,9 +91,7 @@ h1 a {
     line-height: 1.4;
 }
 .regtext {
-    font-family: "Monument Grotesk Reg", sans-serif;   
     z-index: 9;
-    padding-bottom: 15px;
 }
 
 
@@ -114,24 +112,3 @@ footer {
     font-size: 25px;
 }
 
-/********FONT FACE********/
-
-@font-face {
-  font-family: Favorit Reg Line;
-  src: url(Fonts/Favorit/Favorit-Regular_Lining.otf);
-}
-
-@font-face {
-  font-family: Monument Grotesk Reg;
-  src: url(Fonts/monument/MonumentGrotesk-Regular.otf);
-}
-
-@font-face {
-  font-family: Monument Grotesk Med;
-  src: url(Fonts/monument/MonumentGrotesk-Medium.otf);
-}
-
-@font-face {
-  font-family: Monument Grotesk Bold;
-  src: url(Fonts/monument/MonumentGrotesk-Bold.otf);
-}

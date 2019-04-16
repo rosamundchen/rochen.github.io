@@ -119,21 +119,11 @@ footer {
 /********FONT FACE********/
 
 @font-face {
-  font-family: Favorit Reg Line;
-  src: url(Fonts/Favorit/Favorit-Regular_Lining.otf);
-}
-
-@font-face {
   font-family: Monument Grotesk Reg;
-  src: url(Fonts/monument/MonumentGrotesk-Regular.otf);
-}
-
-@font-face {
-  font-family: Monument Grotesk Med;
-  src: url(Fonts/monument/MonumentGrotesk-Medium.otf);
+  src: url(Fonts/monument/MonumentGroteskTrial-Regular.woff);
 }
 
 @font-face {
   font-family: Monument Grotesk Bold;
-  src: url(Fonts/monument/MonumentGrotesk-Bold.otf);
+  src: url(Fonts/monument/MonumentGroteskTrial-Bold.woff);
 }

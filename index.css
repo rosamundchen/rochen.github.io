@@ -55,6 +55,11 @@ h1 a {
     text-decoration: none;
 }
 
+::selection {
+  color: white; 
+  background: #000fff;
+}
+
 
 /********************** CONTAINER 2 **********************/
 

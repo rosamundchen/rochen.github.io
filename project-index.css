@@ -77,6 +77,10 @@ h1 a {
     text-decoration: none;
 }
 
+::selection {
+  background: transparent;
+}
+
 
 /********************** CONTAINER 2 **********************/
 

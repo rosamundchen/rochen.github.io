@@ -55,6 +55,10 @@ h1 a {
 h1 a:hover {
     text-decoration: underline;
 }
+::selection {
+  background: transparent;
+}
+
 
 /********************** IMAGES **********************/
 

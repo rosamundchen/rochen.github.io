@@ -59,6 +59,7 @@ h1 a {
     width: 100%;
     margin-top: 70px;
     padding: 15px;
+    z-index: 3;
 }
 
 .pz1, .pz2, .pz3, .pz4, .pz5 {
@@ -72,7 +73,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 81px;
+    height: 98px;
     max-width: 50%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
@@ -102,10 +103,10 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;   
-    height: 55px;
+    height: 70px;
     padding: 15px 15px 15px 15px;
     background-color: white;
-    z-index: 0;
+    z-index: 1;
 }
 
 .backbutton {

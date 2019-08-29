@@ -30,7 +30,10 @@ header {
     float: left;
     padding: 15px 15px 15px 15px;
     height: 55px;
-    color: darkgray;
+}
+
+.header1 a:hover{
+    text-decoration: underline;
 }
 
 
@@ -59,7 +62,6 @@ h1 a {
     color: black;
     text-decoration: none;
 }
-
 ::selection {
   background: transparent;
 }
@@ -78,7 +80,7 @@ h1 a {
     padding: 15px;
 }
 
-.thw1, .thw2, .thw3, .thw4, .thw5 {
+.img1, .img2 {
     padding-bottom: 15px;
 }
 
@@ -89,7 +91,7 @@ h1 a {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;    
-    height: 62px;
+    height: 80px;
     padding: 5px 15px 20px 15px;
     z-index: 10;
 }
@@ -107,6 +109,18 @@ h1 a {
 .regtext {
     font-family: "Monument Grotesk Reg", sans-serif;
 }
+
+.regtext a{
+    color: black;
+    text-decoration: none;
+}
+
+.regtext a:hover {
+    font-family: "Monument Grotesk Bold", sans-serif;
+    color: blue;
+    cursor: url('cursor2.png'), pointer;
+}
+
 
 /********************** FOOTER **********************/
 

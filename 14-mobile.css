@@ -63,7 +63,7 @@ h1 a {
     z-index: 3;
 }
 
-.sb1, .sb2, .sb3, .sb4 {
+.img1, .img2, .img3, .img4, .img5 {
     padding-bottom: 15px;
 }
 
@@ -74,7 +74,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 105px;
+    height: 118px;
     max-width: 50%;
     padding: 0px 15px 40px 15px;
     z-index: 9;
@@ -91,12 +91,13 @@ h1 a {
     width: 100%;
     line-height: 1.4;
     z-index: 9;
+    padding-bottom: 15px;
 }
 .regtext {
     z-index: 9;
 }
-    
-    
+
+
 /********************** FOOTER **********************/
 
 footer {
@@ -113,3 +114,5 @@ footer {
 .backbutton {
     font-size: 25px;
 }
+
+

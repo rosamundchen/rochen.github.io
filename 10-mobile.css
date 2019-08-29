@@ -49,7 +49,6 @@ h1 a {
 }
 
 /********************** IMAGES **********************/
-    
 .box1 {
     width: 100%;    
     }
@@ -62,7 +61,7 @@ h1 a {
     z-index: 3;
 }
 
-.pz1, .pz2, .pz3, .pz4, .pz5 {
+.img1, .img2, .img3, .img4, .img5, .img6 {
     padding-bottom: 15px;
 }
 
@@ -73,8 +72,9 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 98px;
-    max-width: 50%;
+    height: 122px;
+    max-width: 53%;
+    word-wrap: break-word;
     padding: 0px 15px 15px 15px;
     z-index: 9;
 }
@@ -93,8 +93,8 @@ h1 a {
 }
 .regtext {
     z-index: 9;
+    padding-bottom: 15px;
 }
-
 
 /********************** FOOTER **********************/
 

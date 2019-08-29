@@ -49,10 +49,6 @@ h1 a {
 }
 
 /********************** IMAGES **********************/
-.box1 {
-    width: 100%;    
-    }
-    
 .imagesgroup {
     float: left;
     width: 100%;
@@ -61,20 +57,22 @@ h1 a {
     z-index: 3;
 }
 
-.v1, .v2, .v3, .v4, .v5, .v6 {
+.img1, .img2, .img3, .img4, .img5, .img6 {
     padding-bottom: 15px;
 }
 
 
 /********************** TEXT **********************/
-
+.box1 {
+    width: 100%;    
+    }
+    
 .textbox {
     float: left;
     position: relative;
     font-size: 15px;
     height: 122px;
-    max-width: 53%;
-    word-wrap: break-word;
+    max-width: 45%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
 }
@@ -92,8 +90,8 @@ h1 a {
     z-index: 9;
 }
 .regtext {
+    font-family: "Monument Grotesk Reg", sans-serif;    
     z-index: 9;
-    padding-bottom: 15px;
 }
 
 /********************** FOOTER **********************/

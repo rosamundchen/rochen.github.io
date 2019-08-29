@@ -36,6 +36,7 @@ header {
     float: right;
     padding: 15px 15px 15px 15px;    
     height: 55px;
+    background-color: ;
 }
 
 h1 {
@@ -61,18 +62,21 @@ h1 a:hover {
 }
 
 /********************** IMAGES **********************/
+
 .box1 {
     float: left;
     width: 65%;
 }
+
 .imagesgroup {
+    background-color: ;
     float: left;
     width: 100%;
     margin-top: 100px;
     padding: 15px;
 }
 
-.v1, .v2, .v3, .v4, .v5, .v6 {
+.img1, .img2, .img3, .img4, .img5, .img6 {
     padding-bottom: 15px;
 }
 
@@ -81,9 +85,10 @@ h1 a:hover {
 
 .textbox {
     float: left;
-    height: 83px;
+    height: 88px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
+    height: 82px;
     padding: 5px 15px 20px 15px;
     z-index: 10;
 }
@@ -102,6 +107,10 @@ h1 a:hover {
     font-family: "Monument Grotesk Reg", sans-serif;
 }
 
+.desc {
+    width: 600px;
+    font-family: "Monument Grotesk Reg", sans-serif;
+}
 
 /********************** FOOTER **********************/
 

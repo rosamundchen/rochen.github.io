@@ -25,10 +25,7 @@ header {
     float: left;
     padding: 10px 15px 15px 15px;
     height: 55px;
-}
-
-.header1 a:hover{
-    text-decoration: underline;
+    color: darkgray;
 }
 
 
@@ -36,6 +33,7 @@ header {
     float: right;
     padding: 10px 15px 15px 15px;    
     height: 55px;
+    background-color: ;
 }
 
 .header2 a:hover{
@@ -58,7 +56,6 @@ h1 a {
     width: 100%;    
     }
 .imagesgroup {
-    background-color: ;
     float: left;
     width: 100%;
     margin-top: 70px;
@@ -66,7 +63,7 @@ h1 a {
     z-index: 3;
 }
 
-.ep1, .ep2, .ep3 {
+.img1, .img2, .img3, .img4 {
     padding-bottom: 15px;
 }
 
@@ -96,10 +93,10 @@ h1 a {
     z-index: 9;
 }
 .regtext {
-    font-family: "Monument Grotesk Reg", sans-serif;    
     z-index: 9;
 }
-
+    
+    
 /********************** FOOTER **********************/
 
 footer {

@@ -106,16 +106,14 @@ footer {
         color: #111;
 }
 
-
-.foot1 a{
-    color: #111;
-    text-decoration: none;
+p a{
+    color: black;
 }
 
-.foot1 a:hover{
-    font-family: "Monument Grotesk Bold", sans-serif;
+p a:hover{
     color: blue;
     cursor: url('cursor2.png'), pointer;
+    
 }
 
 .foot2 {

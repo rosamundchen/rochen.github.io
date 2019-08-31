@@ -36,6 +36,7 @@ header {
     float: right;
     padding: 15px 15px 15px 15px;    
     height: 55px;
+    background-color: ;
 }
 
 h1 {
@@ -55,10 +56,10 @@ h1 a {
 h1 a:hover {
     text-decoration: underline;
 }
+
 ::selection {
   background: transparent;
 }
-
 
 /********************** IMAGES **********************/
 
@@ -68,6 +69,7 @@ h1 a:hover {
 }
 
 .imagesgroup {
+    background-color: ;
     float: left;
     width: 100%;
     margin-top: 100px;
@@ -83,10 +85,10 @@ h1 a:hover {
 
 .textbox {
     float: left;
-    height: 65px;
+    height: 88px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
-    height: 62px;
+    height: 82px;
     padding: 5px 15px 20px 15px;
     z-index: 10;
 }

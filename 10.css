@@ -32,11 +32,21 @@ header {
     height: 55px;
 }
 
+.header1 a:hover{
+    text-decoration: underline;
+}
+
+
 .header2 {
     float: right;
     padding: 15px 15px 15px 15px;    
     height: 55px;
 }
+
+.header2 a:hover{
+    text-decoration: underline;
+}
+
 
 h1 {
     font-family: "Monument Grotesk Reg", sans-serif;
@@ -47,24 +57,23 @@ h1 {
     text-transform: uppercase;
 }
 
+
 h1 a {
     color: black;
     text-decoration: none;
-}
-
-h1 a:hover {
-    text-decoration: underline;
 }
 
 ::selection {
   background: transparent;
 }
 
+
 /********************** IMAGES **********************/
 .box1 {
     float: left;
     width: 65%;
 }
+
 .imagesgroup {
     float: left;
     width: 100%;
@@ -72,7 +81,7 @@ h1 a:hover {
     padding: 15px;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1, .img2, .img3 {
     padding-bottom: 15px;
 }
 
@@ -81,9 +90,9 @@ h1 a:hover {
 
 .textbox {
     float: left;
-    height: 83px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
+    height: 63px;
     padding: 5px 15px 20px 15px;
     z-index: 10;
 }
@@ -102,6 +111,10 @@ h1 a:hover {
     font-family: "Monument Grotesk Reg", sans-serif;
 }
 
+.desc {
+    width: 600px;
+    font-family: "Monument Grotesk Reg", sans-serif;
+}
 
 /********************** FOOTER **********************/
 
@@ -109,8 +122,8 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    left: 0;    
-    height: 65px;
+    left: 0;       
+    height: 65px; 
     padding: 15px;
 }
 

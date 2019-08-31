@@ -63,7 +63,7 @@ h1 a {
     z-index: 3;
 }
 
-.img1, .img2 {
+.img1, .img2, .img3, .img4 {
     padding-bottom: 15px;
 }
 
@@ -74,9 +74,9 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 138px;
+    height: 116px;
     max-width: 50%;
-    padding: 20px 15px 40px 15px;
+    padding: 0px 15px 40px 15px;
     z-index: 9;
 }
 
@@ -96,11 +96,11 @@ h1 a {
 .regtext {
     z-index: 9;
 }
-
 .regtext a:active {
     font-family: "Monument Grotesk Bold", sans-serif;
     color: blue;
 }
+
 
 
 /********************** FOOTER **********************/

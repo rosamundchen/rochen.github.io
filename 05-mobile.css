@@ -11,6 +11,7 @@ html,body {
     
 /********************** HEADER **********************/
 
+
 header {
     position: fixed;
     width: 100%;
@@ -23,6 +24,7 @@ header {
 .header1 {
     float: left;
     padding: 10px 15px 15px 15px;
+    background-color: ;
     height: 55px;
 }
 
@@ -51,9 +53,8 @@ h1 a {
 /********************** IMAGES **********************/
     
 .box1 {
-    float: left;
-    width: 100%;
-}
+    width: 100%;    
+    }
     
 .imagesgroup {
     float: left;
@@ -63,7 +64,7 @@ h1 a {
     z-index: 3;
 }
 
-.img1, .img2, .img3, .img5, .img6 {
+.img1, .img2, .img3 .img4, .img5 {
     padding-bottom: 15px;
 }
 
@@ -74,7 +75,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 165px;
+    height: 98px;
     max-width: 50%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
@@ -89,13 +90,12 @@ h1 a {
 .title {
     float: left;
     width: 100%;
-    line-height: 1.4;
+    line-height: 1.4;    
     z-index: 9;
 }
 .regtext {
     z-index: 9;
 }
-
 
 /********************** FOOTER **********************/
 

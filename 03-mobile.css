@@ -51,8 +51,9 @@ h1 a {
 /********************** IMAGES **********************/
     
 .box1 {
-    width: 100%;    
-    }
+    float: left;
+    width: 100%;
+}
     
 .imagesgroup {
     float: left;
@@ -62,7 +63,7 @@ h1 a {
     z-index: 3;
 }
 
-.img1, .img2, .img3, .img4 {
+.img1, .img2, .img3, .img5, .img6 {
     padding-bottom: 15px;
 }
 
@@ -73,7 +74,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 97px;
+    height: 165px;
     max-width: 50%;
     padding: 0px 15px 15px 15px;
     z-index: 9;
@@ -89,6 +90,10 @@ h1 a {
     float: left;
     width: 100%;
     line-height: 1.4;
+    z-index: 9;
+}
+.regtext {
+    z-index: 9;
 }
 
 
@@ -108,4 +113,3 @@ footer {
 .backbutton {
     font-size: 25px;
 }
-

@@ -72,11 +72,11 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 122px;
-    max-width: 53%;
-    word-wrap: break-word;
-    padding: 0px 15px 15px 15px;
+    height: 170px;
+    max-width: 60%;
+    padding: 10px 15px 30px 15px;
     z-index: 9;
+    word-wrap: break-word;
 }
 
 .year {

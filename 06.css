@@ -83,10 +83,10 @@ h1 a:hover {
 
 .textbox {
     float: left;
-    height: 62px;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
-    padding: 5px 15px 20px 15px;
+    height: 141px;
+    padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
@@ -117,8 +117,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;    
-    height: 70px;
-    padding: 15px;
+    height: 70px; 
+    padding: 15px 15px 20px 20px;
 }
 
 .backbutton {

@@ -89,8 +89,8 @@ h1 a {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;    
-    height: 150px;
-    padding: 20px 20px 20px 15px;
+    height: 120px;
+    padding: 0px 20px 20px 15px;
     z-index: 10;
 }
 

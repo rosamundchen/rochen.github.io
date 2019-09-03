@@ -77,9 +77,9 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 105px;
-    max-width: 50%;
-    padding: 0px 15px 40px 15px;
+    height: 256px;
+    max-width: 60%;
+    padding: 10px 15px 30px 15px;
     z-index: 9;
 }
 

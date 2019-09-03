@@ -92,8 +92,8 @@ h1 a {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
-    height: 63px;
-    padding: 5px 15px 20px 15px;
+    height: 160px;
+    padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
@@ -123,8 +123,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;       
-    height: 65px; 
-    padding: 15px;
+    height: 70px; 
+    padding: 15px 15px 20px 20px;
 }
 
 .backbutton {

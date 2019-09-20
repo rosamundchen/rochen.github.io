@@ -11,6 +11,7 @@ html,body {
     
 /********************** HEADER **********************/
 
+
 header {
     position: fixed;
     width: 100%;
@@ -24,6 +25,7 @@ header {
     float: left;
     padding: 10px 15px 15px 15px;
     height: 55px;
+    color: darkgray;
 }
 
 
@@ -31,6 +33,7 @@ header {
     float: right;
     padding: 10px 15px 15px 15px;    
     height: 55px;
+    background-color: ;
 }
 
 .header2 a:hover{
@@ -49,11 +52,9 @@ h1 a {
 }
 
 /********************** IMAGES **********************/
-    
 .box1 {
     width: 100%;    
     }
-    
 .imagesgroup {
     float: left;
     width: 100%;
@@ -62,7 +63,7 @@ h1 a {
     z-index: 3;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1, .img2, .img3, .img4, .img5 {
     padding-bottom: 15px;
 }
 
@@ -73,7 +74,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-    height: 130px;
+    height: 215px;
     max-width: 100%;
     margin-bottom: 90px;
     padding: 10px 15px 30px 15px;
@@ -91,11 +92,12 @@ h1 a {
     width: 100%;
     line-height: 1.4;
     z-index: 2;
+    padding-bottom: 15px;
 }
 .regtext {
     z-index: 2;
 }
-    
+
 
 /********************** FOOTER **********************/
 
@@ -115,5 +117,4 @@ footer {
     float: left;
 }
 
-/********FONT FACE********/
 

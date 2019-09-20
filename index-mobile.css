@@ -88,27 +88,27 @@ footer {
     
 .foot-group-1 {
         height: 95px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     animation: mymove .5s ease-in;
-    border-top: 1px solid black; 
+    border-top: 0px solid black; 
     }
     
     .foot-group-2 {
     height: 75px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 30px;
     animation: mymove .2s ease-in;
-    border-top: 1px solid black; 
+    border-top: 0px solid black; 
     }
     
     .foot-group-3{
         float: left;
         width: 95%;
-        margin-top: 80px;
+        margin-top: 90px;
         height: 20px;
-        padding: 8px 8px 8px 8px;
-        font-size: 12px;
+        padding: 8px 8px 8px 0px;
+        font-size: 11px;
         position: absolute;
     animation: mymove 0s linear;
     border-top: 0px solid grey; 

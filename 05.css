@@ -32,11 +32,23 @@ header {
     height: 55px;
 }
 
+.header1 a:hover{
+    text-decoration: underline;
+    cursor: url('cursor2.png'), pointer;
+}
+
+
 .header2 {
     float: right;
     padding: 15px 15px 15px 15px;    
     height: 55px;
 }
+
+.header2 a:hover{
+    text-decoration: underline;
+    cursor: url('cursor2.png'), pointer;
+}
+
 
 h1 {
     font-family: "Monument Grotesk Reg", sans-serif;
@@ -47,22 +59,17 @@ h1 {
     text-transform: uppercase;
 }
 
+
 h1 a {
     color: black;
     text-decoration: none;
 }
-
-h1 a:hover {
-    text-decoration: underline;
-}
-
 ::selection {
   background: transparent;
 }
 
 
 /********************** IMAGES **********************/
-
 .box1 {
     float: left;
     width: 65%;
@@ -75,7 +82,7 @@ h1 a:hover {
     padding: 15px;
 }
 
-.img1, .img2, .img3, .img4, .img5 {
+.img1, .img2 {
     padding-bottom: 15px;
 }
 
@@ -85,10 +92,11 @@ h1 a:hover {
 .textbox {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
-    font-size: 15.5px;
-    height: 226px;
+    font-size: 15.5px;    
+    height: 120px;
     padding: 20px 20px 20px 15px;
     z-index: 10;
+    position: relative;
 }
 
 .year {
@@ -101,9 +109,21 @@ h1 a:hover {
     width: 550px;
     line-height: 1.4;
 }
-.regtext {    
+.regtext {
     font-family: "Monument Grotesk Reg", sans-serif;
 }
+
+.regtext a{
+    color: black;
+    text-decoration: none;
+}
+
+.regtext a:hover {
+    font-family: "Monument Grotesk Bold", sans-serif;
+    color: blue;
+    cursor: url('cursor2.png'), pointer;
+}
+
 
 /********************** FOOTER **********************/
 
@@ -111,9 +131,10 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    left: 0;    
+    left: 0;       
     height: 70px; 
     padding: 15px 15px 20px 20px;
+    z-index: 1;
 }
 
 .backbutton {
@@ -130,7 +151,9 @@ footer {
 
 .backbutton a:hover {
     text-decoration: underline;
+    cursor: url('cursor2.png'), pointer;
 }
+
 
 
 

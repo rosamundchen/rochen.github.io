@@ -88,7 +88,11 @@ footer {
     
 .foot-group-1 {
         height: 95px;
+<<<<<<< HEAD
     padding-top: 20px;
+=======
+    padding-top: 10px;
+>>>>>>> 08ee638ceca1f65f245c03b533b16e702dcab5fe
     padding-bottom: 0px;
     animation: mymove .5s ease-in;
     border-top: 0px solid black; 
@@ -111,7 +115,7 @@ footer {
         font-size: 11px;
         position: absolute;
     animation: mymove 0s linear;
-    border-top: 0px solid grey; 
+    border-top: 0.5px solid grey; 
 
     }
 

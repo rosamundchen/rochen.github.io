@@ -88,19 +88,19 @@ h1 a:hover {
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
     width: 100%;
-    height: 195px;
+    height: auto;
     padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
 .year {
     float: left;
-    width: 105px;
+    width: 70px;
 }
 
 .title {
     float: left;
-    width: 590px;
+    width: 50%;
     line-height: 1.4;
 }
 .regtext {    

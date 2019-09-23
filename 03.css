@@ -86,19 +86,19 @@ h1 a:hover {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
-    height: 141px;
+    height: auto;
     padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
 .year {
     float: left;
-    width: 105px;
+    width: 70px;
 }
 
 .title {
     float: left;
-    width: 550px;
+    width: 50%;
     line-height: 1.4;
 }
 

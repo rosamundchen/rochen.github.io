@@ -93,7 +93,8 @@ h1 a {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;    
-    height: 120px;
+    height: auto;
+    width: 100%;
     padding: 20px 20px 20px 15px;
     z-index: 10;
     position: relative;
@@ -101,13 +102,13 @@ h1 a {
 
 .year {
     float: left;
-    width: 105px;
+    width: 70px;
 }
 
 .title {
     float: left;
-    width: 550px;
     line-height: 1.4;
+    width: 50%;
 }
 .regtext {
     font-family: "Monument Grotesk Reg", sans-serif;

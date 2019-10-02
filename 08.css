@@ -41,8 +41,13 @@ header {
 }
 
 .header2 a:hover{
-    text-decoration: underline;
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor3.png'), pointer;
+    color: white;
+        text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 
@@ -134,8 +139,13 @@ footer {
 }
 
 .backbutton a:hover {
-    text-decoration: underline;
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor3.png'), pointer;
+    color: white;
+        text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 

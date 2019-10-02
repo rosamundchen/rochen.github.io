@@ -36,10 +36,6 @@ header {
     background-color: ;
 }
 
-.header2 a:hover{
-    text-decoration: underline;
-}
-
 
 h1 {
     font-size: 25px;
@@ -123,8 +119,4 @@ footer {
 .backbutton {
     font-size: 25px;
     float: left;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 08ee638ceca1f65f245c03b533b16e702dcab5fe
+

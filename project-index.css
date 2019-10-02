@@ -58,9 +58,12 @@ header {
 }
 
 .header2 a:hover{
-    text-decoration: underline;
-
-}
+    color: white;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;}
 
 
 h1 {
@@ -78,7 +81,7 @@ h1 a {
 }
 
 h1 a:hover{
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor3.png'), pointer;  
 }
 
 ::selection {
@@ -121,7 +124,7 @@ li {
 
 .title a:hover{
     text-decoration: underline;
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor3.png'), pointer;  
 }
 
 .type {

@@ -34,12 +34,6 @@ header {
 
 .header1 a:hover{
     cursor: url('cursor3.png'), pointer;
-    color: white;
-        text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 
 
@@ -51,12 +45,6 @@ header {
 
 .header2 a:hover{
     cursor: url('cursor3.png'), pointer;
-    color: white;
-        text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 
 
@@ -162,12 +150,6 @@ footer {
 
 .backbutton a:hover {
     cursor: url('cursor3.png'), pointer;
-    color: white;
-        text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 
 

@@ -32,32 +32,6 @@ header {
 
 .header1 a:hover{
     cursor: url('cursor3.png'), pointer;
-    color: white;
-        text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-}
-
-.chen:hover {
-    color: black;
-        text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-    cursor: url('cursor3.png'), pointer;
-}
-
-.ro:hover {
-    cursor: url('cursor3.png'), pointer;
-    color: black;
-      text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
 }
 
 
@@ -72,10 +46,10 @@ header {
     cursor: url('cursor3.png'), pointer;
     color: white;
       text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+   -0.8px -0.8px 0 #000,  
+    0.8px -0.8px 0 #000,
+    -0.8px 0.8px 0 #000,
+     0.8px 0.8px 0 #000;
 }
 
 
@@ -128,10 +102,11 @@ li a {
 li a:hover {
     color: white;
       text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;    cursor: url('cursor3.png'), pointer;
+   -0.8px -0.8px 0 #000,  
+    0.8px -0.8px 0 #000,
+    -0.8px 0.8px 0 #000,
+     0.8px 0.8px 0 #000;    
+    cursor: url('cursor3.png'), pointer;
 }
 
 

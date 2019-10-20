@@ -81,9 +81,17 @@ h1 a {
     }
     
 .title a:hover{
-    text-decoration: underline;
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor3.png'), pointer;
 }
+    .title a:active{
+        color: white;
+            text-shadow:
+   -0.8px -0.8px 0 #000,  
+    0.8px -0.8px 0 #000,
+    -0.8px 0.8px 0 #000,
+     0.8px 0.8px 0 #000;
+        
+    }
 
 
 .type {

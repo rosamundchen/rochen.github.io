@@ -54,6 +54,7 @@ h1 a {
 
 h1 a:hover {
     cursor: url('cursor3.png'), pointer;
+
 }
 
 ::selection {

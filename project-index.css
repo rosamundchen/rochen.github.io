@@ -48,7 +48,6 @@ header {
     background-color: ;
     height: 65px;
     text-decoration: ;
-
 }
 
 
@@ -60,11 +59,8 @@ header {
 
 .header2 a:hover{
     color: white;
-    text-shadow:
-   -0.8px -0.8px 0 #000,  
-    0.8px -0.8px 0 #000,
-    -0.8px 0.8px 0 #000,
-     0.8px 0.8px 0 #000;
+-webkit-text-stroke: 1px #111; 
+text-stroke: 1px #111;
 }
 
 

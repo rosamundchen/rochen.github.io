@@ -122,11 +122,8 @@ li {
 
 .title a:hover{
     color: white;
-    text-shadow:
-   -0.5px -0.5px 0 #000,  
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-     0.5px 0.5px 0 #000;    
+-webkit-text-stroke: 0.8px #111; 
+text-stroke: 0.8px #111; 
     cursor: url('cursor3.png'), pointer;  
 }
 

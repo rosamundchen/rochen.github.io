@@ -33,10 +33,6 @@ header {
     color: darkgray;
 }
 
-.header1 a:hover{
-    cursor: url('cursor3.png'), pointer;
-}
-
 
 .header2 {
     float: right;

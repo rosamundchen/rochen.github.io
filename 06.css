@@ -81,7 +81,7 @@ h1 a {
     padding: 15px;
 }
 
-.img1, .img2 {
+.img1, .img2, .img3, .img4 {
     padding-bottom: 15px;
 }
 
@@ -93,18 +93,19 @@ h1 a {
     font-family: "Monument Grotesk Bold", sans-serif;
     font-size: 15.5px;
     height: auto;
+    width: 100%;
     padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
 .year {
     float: left;
-    width: 70px;
+    width: 10%;
 }
 
 .title {
     float: left;
-    width: 50%;
+    width: 85%;
     line-height: 1.4;
 }
 .regtext {

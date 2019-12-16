@@ -62,6 +62,7 @@ h1 a {
     color: black;
     text-decoration: none;
 }
+
 ::selection {
   background: transparent;
 }
@@ -80,7 +81,7 @@ h1 a {
     padding: 15px;
 }
 
-.img1, .img2, .img3, .img4, .img5 {
+.img1, .img2 {
     padding-bottom: 15px;
 }
 
@@ -90,23 +91,29 @@ h1 a {
 .textbox {
     float: left;
     font-family: "Monument Grotesk Bold", sans-serif;
-    font-size: 15.5px;    
+    font-size: 15.5px;
     height: auto;
+    width: 100%;
     padding: 20px 20px 20px 15px;
     z-index: 10;
 }
 
 .year {
     float: left;
-    width: 70px;
+    width: 10%;
 }
 
 .title {
     float: left;
-    width: 50%;
+    width: 85%;
     line-height: 1.4;
 }
 .regtext {
+    font-family: "Monument Grotesk Reg", sans-serif;
+}
+
+.desc {
+    width: 600px;
     font-family: "Monument Grotesk Reg", sans-serif;
 }
 

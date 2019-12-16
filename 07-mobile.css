@@ -59,7 +59,7 @@ h1 a {
     z-index: 3;
 }
 
-.img1, .img2, .img3, .img4, .img5 {
+.img1, .img2, .img3, .img4 {
     padding-bottom: 15px;
 }
 
@@ -70,11 +70,7 @@ h1 a {
     float: left;
     position: relative;
     font-size: 15px;
-<<<<<<< HEAD
-    height: 215px;
-=======
-    height: 130px;
->>>>>>> 08ee638ceca1f65f245c03b533b16e702dcab5fe
+    height: 300px;
     max-width: 100%;
     margin-bottom: 90px;
     padding: 10px 15px 30px 15px;
@@ -91,17 +87,15 @@ h1 a {
     float: left;
     width: 100%;
     line-height: 1.4;
+    z-index: 9;
+    line-height: 1.4;    
     z-index: 2;
-<<<<<<< HEAD
-    padding-bottom: 15px;
-=======
->>>>>>> 08ee638ceca1f65f245c03b533b16e702dcab5fe
 }
 .regtext {
     z-index: 2;
 }
-
-
+    
+    
 /********************** FOOTER **********************/
 
 footer {
@@ -118,6 +112,4 @@ footer {
 .backbutton {
     font-size: 25px;
     float: left;
-}
-
 

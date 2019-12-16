@@ -33,10 +33,6 @@ header {
     color: darkgray;
 }
 
-.header1 a:hover{
-    cursor: url('cursor3.png'), pointer;
-}
-
 
 .header2 {
     float: right;
@@ -82,7 +78,7 @@ h1 a {
     padding: 15px;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11 {
     padding-bottom: 15px;
 }
 

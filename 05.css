@@ -100,13 +100,13 @@ h1 a {
 
 .year {
     float: left;
-    width: 70px;
+    width: 10%;
 }
 
 .title {
     float: left;
     line-height: 1.4;
-    width: 50%;
+    width: 85%;
 }
 .regtext {
     font-family: "Monument Grotesk Reg", sans-serif;

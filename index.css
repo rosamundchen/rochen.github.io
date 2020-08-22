@@ -133,20 +133,10 @@ p a:hover{
 
 .foot-group-3 {
     float: right;
-    animation: mymove .5s linear;
     position: relative;
     font-size: 13px;
     margin-top: 39px;
     color: darkgrey;
-}
-
-.column1 {
-    width: 70px;
-    float: left;
-    font-family: "Monument Grotesk Bold", sans-serif;
-    font-weight: bold;
-    animation: mymove .5s linear;
-    position: relative;
 }
 
 
